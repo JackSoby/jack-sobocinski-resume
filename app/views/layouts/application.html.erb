@@ -4,6 +4,7 @@
     <title>JackSobocinski</title>
     <%= csrf_meta_tags %>
 <link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -11,10 +12,9 @@
   <body>
     <div class='nav-bar'>
       <h4 class='nav-child' ><a href='/'><%= "Home" %></a></h4>
-      <h4 class='nav-child' ><a href='/voas'><%= "VOA" %></h4>
-      <h4 class='nav-child' ><a href='/launches'><%= "Launch" %></h4>
-      <h4 class='nav-child' ><a href='/photographys'><%= "Photography" %></h4>
-      <h4 class='nav-child' ><a href='/whs'><%= "WHS" %></h4>
+      <h4 class='nav-child' ><a href='/voas'><%= "VOA" %></a></h4>
+      <h4 class='nav-child' ><a href='/launches'><%= "Launch" %></a></h4>
+      <h4 class='nav-child' ><a href='/photographys'><%= "Photography" %></a></h4>
     </div>
 
     <%= yield %>

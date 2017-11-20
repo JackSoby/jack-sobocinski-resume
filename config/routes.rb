@@ -3,5 +3,4 @@ Rails.application.routes.draw do
   resources :voas, only: [:index]
   resources :launches, only: [:index]
   resources :photographys, only: [:index]
-  resources :whs, only: [:index]
 end
