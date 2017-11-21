@@ -25,3 +25,12 @@ p{
   max-width:100%;
   max-height:100%;
 }
+.market-basket{
+  background-image: url("images");
+  background-repeat: no-repeat;
+  background-size: 250px;
+  height: 250px;
+  max-width:100%;
+  max-height:100%;
+
+}
