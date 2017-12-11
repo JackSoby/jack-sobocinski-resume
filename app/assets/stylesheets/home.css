@@ -15,7 +15,17 @@ p{
 }
 .home-header{
     color: black;
-    font-family: 'Vollkorn SC', serif
+    font-family: 'Vollkorn SC', serif;
+}
+.git-link{
+  background-image: url("GitHub-Mark-32px");
+  height: 32px;
+  width: 32px;
+}
+.in-link{
+  background-image: url('In-Black-41px-TM');
+  height: 38px;
+  width: 38px;
 }
 .profile-image{
   background-image: url("IMG_0161.png");
